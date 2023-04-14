@@ -1,5 +1,7 @@
 # Tile Matrix Schema
 
+**IN DEVELOPEMNT**
+
 Repository to contain calculations for a determining map tile schema using custom projections.
 
 ## Definition
@@ -16,7 +18,7 @@ Open Geospatial Consortium (OGC) sets the standards for WMS, WMTS, Tile Map Sche
 
 http://docs.opengeospatial.org/is/17-083r2/17-083r2.html
 
-All attempts have been mad to stick with standard.
+All attempts have been made to stick with the standard.
 
 In addition, the method for developing "true" scales for custom projections has been brought together from the following information:
 

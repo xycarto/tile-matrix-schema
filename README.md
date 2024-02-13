@@ -29,7 +29,7 @@ In addition, the method for developing "true" scales for custom projections has 
 
 ## Uses
 
-Having the ability to create our own tile matrix is of particular importance as we move into more online mapping and creating internal services like WMTS.  Having these scripts will allow us to move away from standard web mercator projections and give us the ability to use custom projections.  Some standards, like NZTM2000, are already developed, however no scemas exist for larger regions like espg:3994 which NIWA uses.  Further development of these methods allows us also to focus on more obscure regions, like the polar stereographic, which are currently unavailable in standard web mercator projections.
+Having the ability to create our own tile matrix is of particular importance when users would like to do online mapping in custom projections.  Further development of these methods allows users also to focus on more obscure regions, like the polar stereographic, which are currently unavailable in standard web mercator projections.
 
 Map tile schemas are used in:
 
@@ -46,7 +46,7 @@ Map tile schemas are used in:
 
 ## This Repo
 
-One script is so far developed to determine the base scale for the NZTM projection.  NZTM map tile schema is well developed and we are making an attempt to recreate the method because it is a non-standard scaling matrix.
+One script is so far developed to determine the base scale for the NZTM projection.  NZTM map tile schema is well developed and and attempt is being made to recreate the method because it is a non-standard scaling matrix.
 
 The script developed can be used to develop standard (2x) tile matricies for custom projections.
 
